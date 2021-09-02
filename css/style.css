@@ -1,0 +1,264 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+#brand{
+    width: 40px;
+    height: 40px;
+}
+
+#brand img{
+    width: inherit;
+    height: inherit;
+}
+
+#navbar-items .navbar-nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#navbar-items .nav-item{
+    margin: 0 1em;
+}
+.dropdown-menu{
+    background-color: #343a40;
+    text-align: center;
+    
+}
+.dropdown-menu .dropdown-item{
+    color: rgb(224, 215, 215);
+}
+
+@media(min-width: 768px){
+    #navbar-items .navbar-nav{
+        margin-left: 200px;
+        margin-top: 8px;
+    }
+    #indicators button{
+        margin-top: -7em;
+    }
+    #indicators button.active{
+        background-color: #343a40;
+    }
+    .dropdown-menu{
+    background-color: #343a40;
+    
+}
+    .dropdown-menu .dropdown-item{
+        color: rgb(224, 215, 215);
+    }
+    .dropdown-menu .dropdown-item:hover{
+        background-color: #3079c2;
+    }
+}
+
+/*-Slider-*/
+
+#slider-container{
+   width: 100%;   
+}
+
+#slider-container img{
+    max-width:100%;
+    max-height:100vh;
+    width: auto;
+    height: auto;
+}
+
+#capition h3{
+    margin-top: 4em;
+}
+
+@media(min-width: 768px){
+    #capition h3{
+        margin-top: -6em;
+        font-size: 35px;
+        text-shadow: #000 1px 0 10px;
+    }
+    #capition p{
+        text-shadow: #000 1px 0 10px;
+    }
+}
+
+/*-CARDS-*/
+
+#card-text i{
+    padding: 1em;
+}
+
+@media(min-width: 768px){
+    #cards{
+        margin-top: -6em;
+    }
+    #card-text{
+        background-color: rgb(216, 209, 209);
+        padding-bottom: 2em;
+    }
+    #card-text i,
+    #card-text h5,
+    #card-text p{
+        padding-bottom: .3em;
+        padding-top: 1em;
+    }
+
+}
+
+/*CONTAINER*/
+
+#container{
+    margin-top: 2em;
+}
+
+#container #titles{
+    padding: 1.5em;
+    
+}
+
+#featured-imagens #card-galery{
+    position: relative;
+    
+}
+#featured-imagens .banner-content{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    text-transform: capitalize;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: .6;
+    transition: .5s;
+}
+#featured-imagens .col-md-4:hover > .banner-content{
+    opacity: 0.8;
+}
+
+@media(min-width: 768px){
+    #featured-imagens .banner-content{
+        opacity: 0;
+    }
+}
+
+/* Container Info */
+
+#info-container{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+#info-content h2{
+    padding: 1em;
+}
+
+@media(min-width: 768px){
+    #info-content{
+        margin-bottom: 3em;
+    }
+    #info-container h2{
+        margin-top: 1.5em;
+        
+    }
+    #info-content h3,
+    #info-content p{
+        text-align: center;
+        padding: .5em;
+    }
+    
+    #info-content h2{
+        padding: 0;
+    }
+}
+
+/*CONTACT*/
+
+
+
+#form{
+    padding-left: .3em;
+    padding-right: .3em;
+    margin-top: 2em;
+    padding-bottom: 2em;
+    background-color: rgb(216, 209, 209);   
+}
+#form label{
+    margin-top: 1.2em;
+    font-size: 18px;
+    margin-left: 0.3em;
+}
+#form input{
+    margin-top: 0.5em;
+}
+
+#form button{
+    margin-top: 1em;
+    background-color: #343a40;
+}
+
+@media(min-width: 768px){
+    #form{
+        margin-top: 1em;
+        display: flex;
+        flex-direction: column;
+        padding-left: 10em;
+        margin: auto;
+        background-color: rgb(216, 209, 209);
+        
+    }
+   
+}
+
+/* FOOTER */
+
+#footer{
+    margin-top: 2em;
+}
+
+#footer-top #social{
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2em;
+
+}
+#footer-top #social i{
+    margin: .7em;
+    font-size: 1.5em;
+}
+
+#footer-details{
+    color: #FFF;
+    padding: 1em;
+}
+
+#footer-details h4{
+    margin-bottom: 1em;
+    margin-top: .7em;
+}
+
+#footer-details button{
+    background-color: #5a5e63;
+    margin-top: .7em;
+    
+}
+
+#footer-details li a{
+    text-decoration: none;
+    color: #5a5e63;
+}
+
+@media(min-width: 768px){
+    #footer-details #contact-container{
+        padding-left: 5em;
+        
+    }
+   
+   
+}
